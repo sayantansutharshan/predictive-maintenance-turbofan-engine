@@ -1,0 +1,128 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.15.0"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "98213235d26f3324e3908a2660963707",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "18e4d7b16ad28ebcd2187e5027f4fc47",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "887f7d6b982cc5d9f3b853aa1b8ceaea",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "76e2af606585c12366b5b8f0ed21ea11",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Loading raw data...\n"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Aggregating by (unit, cycle)...\n"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Scaling features...\nSaving processed data...\nProcessed data saved to ../data/processed/data.h5\n"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "bb899bac084de60c73897210747cc44c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='a501d0ec-74b7-6e60-0344-e0fc21bfcb59'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;RUL&#92;&quot;:446.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.4228240929},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.2547656139},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.2045454545},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.4204545455},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;RUL&#92;&quot;:0.625},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;RUL&#92;&quot;:1.0}]&quot;' data-total-rows='8' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;RUL&quot;, [&quot;number&quot;, &quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;, [&quot;string&quot;, &quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "caba1ec9d14a40b19fe1b9453d82525b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre style='font-size: 12px'>Index([&#x27;unit&#x27;, &#x27;cycle&#x27;, &#x27;Fc_mean&#x27;, &#x27;Fc_std&#x27;, &#x27;hs_mean&#x27;, &#x27;hs_std&#x27;, &#x27;alt_mean&#x27;,\n       &#x27;alt_std&#x27;, &#x27;Mach_mean&#x27;, &#x27;Mach_std&#x27;, &#x27;TRA_mean&#x27;, &#x27;TRA_std&#x27;, &#x27;T2_mean&#x27;,\n       &#x27;T2_std&#x27;, &#x27;T24_mean&#x27;, &#x27;T24_std&#x27;, &#x27;T30_mean&#x27;, &#x27;T30_std&#x27;, &#x27;T48_mean&#x27;,\n       &#x27;T48_std&#x27;, &#x27;T50_mean&#x27;, &#x27;T50_std&#x27;, &#x27;P15_mean&#x27;, &#x27;P15_std&#x27;, &#x27;P2_mean&#x27;,\n       &#x27;P2_std&#x27;, &#x27;P21_mean&#x27;, &#x27;P21_std&#x27;, &#x27;P24_mean&#x27;, &#x27;P24_std&#x27;, &#x27;Ps30_mean&#x27;,\n       &#x27;Ps30_std&#x27;, &#x27;P40_mean&#x27;, &#x27;P40_std&#x27;, &#x27;P50_mean&#x27;, &#x27;P50_std&#x27;, &#x27;Nf_mean&#x27;,\n       &#x27;Nf_std&#x27;, &#x27;Nc_mean&#x27;, &#x27;Nc_std&#x27;, &#x27;Wf_mean&#x27;, &#x27;Wf_std&#x27;],\n      dtype=&#x27;object&#x27;)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fhOd",
+      "code_hash": "97e6543070549e70dc8bbdc507c4f3a2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre style='font-size: 12px'>array([ 2.,  5., 10., 16., 18., 20.])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "07d5001a286fef9e95f249f117766b39",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='abd0f5e0-9d0f-6008-6972-2e5973280be8'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;: {&quot;view&quot;: {&quot;continuousWidth&quot;: 300, &quot;continuousHeight&quot;: 300}}, &quot;data&quot;: {&quot;url&quot;: &quot;./@file/108298-578-rl2fp0fo.arrow&quot;, &quot;format&quot;: {&quot;type&quot;: &quot;arrow&quot;}}, &quot;mark&quot;: {&quot;type&quot;: &quot;line&quot;, &quot;opacity&quot;: 0.3, &quot;size&quot;: 0.5}, &quot;encoding&quot;: {&quot;color&quot;: {&quot;field&quot;: &quot;unit&quot;, &quot;legend&quot;: null, &quot;type&quot;: &quot;nominal&quot;}, &quot;facet&quot;: {&quot;columns&quot;: 4, &quot;field&quot;: &quot;sensor&quot;, &quot;title&quot;: &quot;Sensor Degradation Over Time&quot;, &quot;type&quot;: &quot;nominal&quot;}, &quot;x&quot;: {&quot;field&quot;: &quot;cycle&quot;, &quot;title&quot;: &quot;Cycle&quot;, &quot;type&quot;: &quot;quantitative&quot;}, &quot;y&quot;: {&quot;field&quot;: &quot;value&quot;, &quot;title&quot;: &quot;Sensor Value&quot;, &quot;type&quot;: &quot;quantitative&quot;}}, &quot;height&quot;: 150, &quot;resolve&quot;: {&quot;scale&quot;: {&quot;x&quot;: &quot;shared&quot;, &quot;y&quot;: &quot;independent&quot;}}, &quot;width&quot;: 200, &quot;&#36;schema&quot;: &quot;https://vega.github.io/schema/vega-lite/v5.20.1.json&quot;}' data-chart-selection='true' data-field-selection='true'></marimo-vega></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
